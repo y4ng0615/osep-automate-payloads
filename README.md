@@ -53,35 +53,6 @@ http://<ip>/other/test.txt
 - [X] wmic执行powershell 放到了Csharp中
 
 
----
-## 其他单独项目
-- Minidump 无需重新生成 C# -> tools
-- Minidump.ps1 无需重新生成 ps1 -> tools
-- lat 改为带参数的 C# -> tools
-- MSSQL枚举 C#
-
-
----
-## 输出说明和目录结构
-- Base64加密的ps1
-
----
-## 生成顺序
-ps1 -> C# -> vba
-
----
-## 备用计划
-
----
-## TODO
-- 添加对工具的生成例如 `curl http://<ip>/`
-- 添加工具列表
-- 每个生成使用多线程并发执行
-- 添加进度条
-- 生成使用手册usage.md
-  - 替换ip
-  - 替换加密的powershell命令
-
 
 
 
