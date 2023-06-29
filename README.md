@@ -1,14 +1,20 @@
 ## 使用方法
 
+最好将文件放在共享目录下并将out软链接到/var/www/html
+使用时需要一台windows主机
+
 ./Generateor.py
 
 ./Generateor.py tun0
 
 ./Generateor.py eth0
 
+按提示在windows上打开payloads.sln,编译程序(可能需要修改生成程序的路径)
+
 所有结果都生成在out中
-可以将out软链接到/var/www/html下
-所有url和命令都在usage.md
+
+所有url和命令都在usage.md,直接复制命令
+
 
 ## C\#
 - [x] inject 进程注入 exe
