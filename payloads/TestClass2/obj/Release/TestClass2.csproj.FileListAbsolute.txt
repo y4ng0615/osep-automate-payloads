@@ -1,0 +1,6 @@
+\\192.168.26.132\visualstudio\project\out\dll\TestClass2.dll
+\\192.168.26.132\visualstudio\project\out\dll\TestClass2.pdb
+\\192.168.26.132\visualstudio\project\payloads\TestClass2\obj\Release\TestClass2.csproj.AssemblyReference.cache
+\\192.168.26.132\visualstudio\project\payloads\TestClass2\obj\Release\TestClass2.csproj.CoreCompileInputs.cache
+\\192.168.26.132\visualstudio\project\payloads\TestClass2\obj\Release\TestClass2.dll
+\\192.168.26.132\visualstudio\project\payloads\TestClass2\obj\Release\TestClass2.pdb

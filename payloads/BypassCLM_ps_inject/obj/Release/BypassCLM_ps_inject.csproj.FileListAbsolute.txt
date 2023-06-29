@@ -1,0 +1,9 @@
+\\192.168.26.132\visualstudio\project\out\exe\BypassCLM_ps_inject.exe.config
+\\192.168.26.132\visualstudio\project\out\exe\BypassCLM_ps_inject.exe
+\\192.168.26.132\visualstudio\project\out\exe\BypassCLM_ps_inject.pdb
+\\192.168.26.132\visualstudio\project\payloads\BypassCLM_ps_inject\obj\Release\BypassCLM_ps_inject.csproj.AssemblyReference.cache
+\\192.168.26.132\visualstudio\project\payloads\BypassCLM_ps_inject\obj\Release\BypassCLM_ps_inject.csproj.SuggestedBindingRedirects.cache
+\\192.168.26.132\visualstudio\project\payloads\BypassCLM_ps_inject\obj\Release\BypassCLM_ps_inject.csproj.CoreCompileInputs.cache
+\\192.168.26.132\visualstudio\project\payloads\BypassCLM_ps_inject\obj\Release\BypassCLM_ps_inject.csproj.CopyComplete
+\\192.168.26.132\visualstudio\project\payloads\BypassCLM_ps_inject\obj\Release\BypassCLM_ps_inject.exe
+\\192.168.26.132\visualstudio\project\payloads\BypassCLM_ps_inject\obj\Release\BypassCLM_ps_inject.pdb

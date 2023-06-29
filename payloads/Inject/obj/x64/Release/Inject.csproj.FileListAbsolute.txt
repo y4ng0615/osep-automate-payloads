@@ -1,0 +1,11 @@
+\\192.168.26.132\visualstudio\project\payloads\Inject\bin\x64\Release\Inject.exe.config
+\\192.168.26.132\visualstudio\project\payloads\Inject\bin\x64\Release\Inject.exe
+\\192.168.26.132\visualstudio\project\payloads\Inject\bin\x64\Release\Inject.pdb
+\\192.168.26.132\visualstudio\project\payloads\Inject\obj\x64\Release\Inject.csproj.AssemblyReference.cache
+\\192.168.26.132\visualstudio\project\payloads\Inject\obj\x64\Release\Inject.csproj.SuggestedBindingRedirects.cache
+\\192.168.26.132\visualstudio\project\payloads\Inject\obj\x64\Release\Inject.csproj.CoreCompileInputs.cache
+\\192.168.26.132\visualstudio\project\payloads\Inject\obj\x64\Release\Inject.exe
+\\192.168.26.132\visualstudio\project\payloads\Inject\obj\x64\Release\Inject.pdb
+\\192.168.26.132\visualstudio\project\out\exe\Inject.exe.config
+\\192.168.26.132\visualstudio\project\out\exe\Inject.exe
+\\192.168.26.132\visualstudio\project\out\exe\Inject.pdb

@@ -1,0 +1,11 @@
+\\192.168.26.132\visualstudio\project\payloads\Hollow\bin\x64\Release\Hollow.exe.config
+\\192.168.26.132\visualstudio\project\payloads\Hollow\bin\x64\Release\Hollow.exe
+\\192.168.26.132\visualstudio\project\payloads\Hollow\bin\x64\Release\Hollow.pdb
+\\192.168.26.132\visualstudio\project\payloads\Hollow\obj\x64\Release\Hollow.csproj.AssemblyReference.cache
+\\192.168.26.132\visualstudio\project\payloads\Hollow\obj\x64\Release\Hollow.csproj.SuggestedBindingRedirects.cache
+\\192.168.26.132\visualstudio\project\payloads\Hollow\obj\x64\Release\Hollow.csproj.CoreCompileInputs.cache
+\\192.168.26.132\visualstudio\project\payloads\Hollow\obj\x64\Release\Hollow.exe
+\\192.168.26.132\visualstudio\project\payloads\Hollow\obj\x64\Release\Hollow.pdb
+\\192.168.26.132\visualstudio\project\out\exe\Hollow.exe.config
+\\192.168.26.132\visualstudio\project\out\exe\Hollow.exe
+\\192.168.26.132\visualstudio\project\out\exe\Hollow.pdb

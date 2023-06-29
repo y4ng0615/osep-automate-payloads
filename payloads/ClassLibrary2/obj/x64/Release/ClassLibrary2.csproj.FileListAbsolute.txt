@@ -1,0 +1,6 @@
+\\192.168.26.132\visualstudio\project\out\dll\ClassLibrary2.dll
+\\192.168.26.132\visualstudio\project\out\dll\ClassLibrary2.pdb
+\\192.168.26.132\visualstudio\project\payloads\ClassLibrary2\obj\x64\Release\ClassLibrary2.csproj.AssemblyReference.cache
+\\192.168.26.132\visualstudio\project\payloads\ClassLibrary2\obj\x64\Release\ClassLibrary2.csproj.CoreCompileInputs.cache
+\\192.168.26.132\visualstudio\project\payloads\ClassLibrary2\obj\x64\Release\ClassLibrary2.dll
+\\192.168.26.132\visualstudio\project\payloads\ClassLibrary2\obj\x64\Release\ClassLibrary2.pdb

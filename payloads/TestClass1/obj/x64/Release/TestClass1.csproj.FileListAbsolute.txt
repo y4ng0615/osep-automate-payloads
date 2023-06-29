@@ -1,0 +1,8 @@
+\\192.168.26.132\visualstudio\project\payloads\TestClass1\bin\x64\Release\TestClass1.dll
+\\192.168.26.132\visualstudio\project\payloads\TestClass1\bin\x64\Release\TestClass1.pdb
+\\192.168.26.132\visualstudio\project\payloads\TestClass1\obj\x64\Release\TestClass1.csproj.AssemblyReference.cache
+\\192.168.26.132\visualstudio\project\payloads\TestClass1\obj\x64\Release\TestClass1.csproj.CoreCompileInputs.cache
+\\192.168.26.132\visualstudio\project\payloads\TestClass1\obj\x64\Release\TestClass1.dll
+\\192.168.26.132\visualstudio\project\payloads\TestClass1\obj\x64\Release\TestClass1.pdb
+\\192.168.26.132\visualstudio\project\out\dll\TestClass1.dll
+\\192.168.26.132\visualstudio\project\out\dll\TestClass1.pdb
