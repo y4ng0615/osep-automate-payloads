@@ -3,11 +3,11 @@
 最好将文件放在共享目录下并将out软链接到/var/www/html
 使用时需要一台windows主机
 
-./Generateor.py
+./Generator.py
 
-./Generateor.py tun0
+./Generator.py tun0
 
-./Generateor.py eth0
+./Generator.py eth0
 
 按提示在windows上打开payloads.sln,编译程序(可能需要修改生成程序的路径)
 
