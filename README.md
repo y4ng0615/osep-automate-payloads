@@ -1,7 +1,11 @@
-## 使用方法
+## 准备
 
+kali vm + smb服务  按照课内材料在kali上安装smb
+Windows vm
 最好将文件放在共享目录下并将out软链接到/var/www/html
-使用时需要一台windows主机
+把工具放在/var/www/html/tools中
+
+## 使用方法
 
 ./Generator.py
 
