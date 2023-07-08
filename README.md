@@ -7,6 +7,9 @@ Windows vm
 
 ## 使用方法
 
+![image](https://github.com/seagate-1/osep-automate-payloads/assets/60332241/c1dc383b-9c6d-4fb5-800d-786877399579)
+
+
 ./Generator.py
 
 ./Generator.py tun0
