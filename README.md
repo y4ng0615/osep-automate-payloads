@@ -7,7 +7,7 @@ Windows vm
 
 ## 使用方法
 
-
+![GIF 2023-7-8 16-47-19](https://github.com/seagate-1/osep-automate-payloads/assets/60332241/41e639d0-ed44-43d7-a587-17e6e1cb9822)
 
 ./Generator.py
 
