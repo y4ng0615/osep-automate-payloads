@@ -1,8 +1,11 @@
 ## 准备
 
 kali vm + smb服务  按照课内材料在kali上安装smb
-Windows vm
+
+需要额外的Windows vm并且安装vs用于编译
+
 最好将文件放在共享目录下并将out软链接到/var/www/html
+
 把工具放在/var/www/html/tools中
 
 ## 使用方法
@@ -57,6 +60,17 @@ Windows vm
 http://<ip>/other/test.xml
 http://<ip>/other/test.txt
 - [X] wmic执行powershell 放到了Csharp中
+
+---
+## 使用的payload
+
+windows/x64/meterpreter/reverse_https
+
+windows/x64/meterpreter/reverse_https thread
+
+windows/meterpreter/reverse_https
+
+windows/meterpreter/reverse_https thread
 
 ---
 seagate_yang@163.com
