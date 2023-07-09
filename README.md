@@ -58,7 +58,8 @@ http://<ip>/other/test.xml
 http://<ip>/other/test.txt
 - [X] wmic执行powershell 放到了Csharp中
 
-
+---
+seagate_yang@163.com
 
 
 
