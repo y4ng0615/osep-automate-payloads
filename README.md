@@ -36,7 +36,7 @@ kali vm + smb服务  按照课内材料在kali上安装smb
 `C:\Windows\Microsoft.NET\Framework64\v4.0.30319\installutil.exe /logfile= /LogToConsole=false /U C:\Users\admin\Desktop\BypassCLM.exe`
 - [x] aspx
 - [X] compiler绕过白名单
-- [x] Installer直接反弹shell绕过白名单
+- [ ] Installer直接反弹shell绕过白名单 <mark style="background: #FF5582A6;">有点问题</mark>
 
 ---
 ## ps1
