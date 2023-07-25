@@ -21,7 +21,7 @@ sudo nano /etc/samba/smb.conf
  read only = no
 ```
 ```
-sudo passwd123123 -a kali
+sudo smbpasswd -a p@ssw0rd123
 sudo systemctl start smbd
 sudo systemctl start nmbd
 
