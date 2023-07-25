@@ -1,22 +1,51 @@
 ## 准备
 
-kali vm + smb服务  按照课内材料在kali上安装smb
+1. 在kali上安装smb, 开启smb服务，让windows可以访问文件
+```
+sudo apt install samba
+sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.old
+sudo nano /etc/samba/smb.conf
+```
+```
+[visualstudio]
+ path = /home/kali/data
+ browseable = yes
+ read only = no
+```
+```
+sudo passwd123123 -a kali
+sudo systemctl start smbd
+sudo systemctl start nmbd
 
-需要额外的Windows vm并且安装vs用于编译
+mkdir /home/kali/data
+chmod -R 777 /home/kali/data
+```
 
-最好将文件放在共享目录下并将out软链接到/var/www/html
+2. 在Windows上安装Visual Studio
 
-把工具放在/var/www/html/tools中
+3. 将输出文件out链接到/var/www/html(可能需要修改apache配置文件，允许访问软链接)，将工具放在/var/www/html/tools (可能需要修改权限)
+```
+ln -s ./out /var/www/html
+mkdir /var/www/html/tools
+```
+
+4. 根据自己在/var/www/html中的工具，修改data/usage.md，脚本会自动修改ip
 
 ## 使用方法
 
 ![GIF 2023-7-8 16-47-19](https://github.com/seagate-1/osep-automate-payloads/assets/60332241/41e639d0-ed44-43d7-a587-17e6e1cb9822)
 
-./Generator.py
-
+1. 运行 参数为指定网卡
+```
 ./Generator.py tun0
-
 ./Generator.py eth0
+```
+
+2. 切换到Windows打开payloads/payloads.sln，重新生成
+
+3. 切换回kali，继续运行
+
+4. 打开usage.md，直接对命令进行复制粘贴
 
 按提示在windows上打开payloads.sln,编译程序(可能需要修改生成程序的路径)
 
@@ -36,7 +65,7 @@ kali vm + smb服务  按照课内材料在kali上安装smb
 `C:\Windows\Microsoft.NET\Framework64\v4.0.30319\installutil.exe /logfile= /LogToConsole=false /U C:\Users\admin\Desktop\BypassCLM.exe`
 - [x] aspx
 - [X] compiler绕过白名单
-- [ ] Installer直接反弹shell绕过白名单 <mark style="background: #FF5582A6;">有点问题</mark>
+- [ ] Installer直接反弹shell绕过白名单 **有点问题 wmi的正常**
 
 ---
 ## ps1
