@@ -1,3 +1,11 @@
+## 联系
+
+If it doesn't work, please contact me. 
+
+**Please do not contact me if it is related to the exam.**
+
+seagate_yang@163.com
+
 ## 准备
 
 1. 在kali上安装smb, 开启smb服务，让windows可以访问文件
@@ -101,8 +109,6 @@ windows/meterpreter/reverse_https
 
 windows/meterpreter/reverse_https thread
 
----
-seagate_yang@163.com
 
 
 
