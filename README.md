@@ -1,11 +1,3 @@
-## 联系
-
-If it doesn't work, please contact me. 
-
-**Please do not contact me if it is related to the exam.**
-
-seagate_yang@163.com
-
 ## 准备
 
 1. 在kali上安装smb, 开启smb服务，让windows可以访问文件
@@ -23,7 +15,6 @@ sudo nano /etc/samba/smb.conf
 ```
 sudo smbpasswd -a p@ssw0rd123
 sudo systemctl start smbd
-sudo systemctl start nmbd
 
 mkdir /home/kali/data
 chmod -R 777 /home/kali/data
@@ -108,6 +99,10 @@ windows/x64/meterpreter/reverse_https thread
 windows/meterpreter/reverse_https
 
 windows/meterpreter/reverse_https thread
+
+---
+
+seagate_yang@163.com
 
 
 
