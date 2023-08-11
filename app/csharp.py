@@ -157,7 +157,7 @@ def t9(ip,shellcode,length,rop,xor):
         content = f.read()
     
     content = content.format(shellcode=finalshellcode,xor=xor,rop=rop,bufname=bufname)
-    with open("out/other/index.aspx","w") as f:
+    with open("out/other/test.aspx","w") as f:
         f.write(content)
 
 def t10(ip):

