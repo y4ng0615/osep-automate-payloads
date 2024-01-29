@@ -13,7 +13,7 @@ sudo nano /etc/samba/smb.conf
  read only = no
 ```
 ```
-sudo smbpasswd -a p@ssw0rd123
+sudo smbpasswd -a kali
 sudo systemctl start smbd
 
 mkdir /home/kali/data
